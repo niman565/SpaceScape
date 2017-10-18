@@ -42,11 +42,11 @@ void setup(){
 }
 
 void draw(){
-  PFont font = createFont("CourierNewPSMT-48.vlw",30);
+  PFont font = createFont("CourierNewPSMT-48.vlw",40);
   textFont(font);
   background(0);
   if(!contin){
-  text("Welcome to SUPER'SCAPE", 250, 250);
+  text("Welcome to SPACESCAPE", 250, 250);
   text("Press ENTER to start!", 250, 300);
   }
   else{
